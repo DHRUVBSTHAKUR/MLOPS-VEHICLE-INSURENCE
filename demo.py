@@ -1,3 +1,5 @@
+from dotenv import load_dotenv
+load_dotenv()
 # # below code is to check the logging config
 # from src.logger import logging
 
