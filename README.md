@@ -48,11 +48,10 @@ To test the complete pipeline on a local machine (requires AWS credentials and M
 
 ```bash
 # 1. Clone & Setup Environment
-git clone [https://github.com/DHRUVBSTHAKUR/MLOPS-VEHICLE-INSURANCE.git](https://github.com/DHRUVBSTHAKUR/MLOPS-VEHICLE-INSURANCE.git)
+git clone https://github.com/DHRUVBSTHAKUR/MLOPS-VEHICLE-INSURANCE.git
 cd MLOPS-VEHICLE-INSURANCE
 conda create -n vehicle python=3.10 -y
 conda activate vehicle
-```
 
 # 2. Install Dependencies
 pip install -r requirements.txt
